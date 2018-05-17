@@ -27,6 +27,6 @@ $form = $yform->getForm();
 
 $fragment = new rex_fragment();
 $fragment->setVar('class', 'edit', false);
-$fragment->setVar('title', $this->i18n('settings'));
+$fragment->setVar('title', $this->i18n('configuration'));
 $fragment->setVar('body', $form, false);
 echo $fragment->parse('core/page/section.php');

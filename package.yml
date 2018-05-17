@@ -1,5 +1,5 @@
 package: cookie_optin
-version: '1.0.0'
+version: '1.0.1'
 author: mynetworx
 supportpage: https://github.com/mynetworx/cookie_optin
 supportemail: entwicklung@mynetworx.de
@@ -13,10 +13,9 @@ page:
         configuration:
             title: 'translate:configuration'
             icon: rex-icon fa-cogs
-#        cookies:
-#            title: 'translate:cookies'
-#            icon: rex-icon fa-circle-o
 
 
 requires:
     redaxo: '^5.0'
+    packages:
+        yform: '^2.3'
