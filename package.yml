@@ -1,0 +1,22 @@
+package: cookie_optin
+version: '1.0.0'
+author: mynetworx
+supportpage: https://github.com/mynetworx/cookie_optin
+supportemail: entwicklung@mynetworx.de
+
+# Seiten
+page:
+    title: 'Cookie Opt-In'
+    icon: rex-icon fa-empire
+    perm: cookie_optin[]
+    subpages:
+        configuration:
+            title: 'translate:configuration'
+            icon: rex-icon fa-cogs
+#        cookies:
+#            title: 'translate:cookies'
+#            icon: rex-icon fa-circle-o
+
+
+requires:
+    redaxo: '^5.0'

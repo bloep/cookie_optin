@@ -1,0 +1,35 @@
+# addon: cookie_optin
+
+# General
+cookie_optin_title=Cookie Opt-In
+cookie_optin_saved=Erfolgreich gespeichert
+cookie_optin_configuration=Einstellungen
+
+# Einstellungen
+
+cookie_optin_cookie_status=Cookie Opt-In
+
+cookie_optin_cookie_status_off=Ausschalten
+cookie_optin_cookie_status_simple=Prüfung auf beliebigen gesetzen Cookie
+cookie_optin_cookie_status_namecheck=Prüfung auf einen bestimmten Cookie
+cookie_optin_cookie_status_valuecheck=Prüfung auf einen bestimmten Cookie-Wert
+
+
+cookie_optin_cookie_name=Cookie Name
+cookie_optin_cookie_name_notice=Wenn eine Prüfung anhand eines bestimmten Cookies erfolgen soll, muss hier der Name des Cookies eingetragen werden.
+
+cookie_optin_cookie_value=Cookie Wert
+cookie_optin_cookie_value_notice=Wenn eine Prüfung anhand eines bestimmten Wertes erfolgen soll, muss hier der Wert des Cookies eingetragen werden.
+
+
+# Cookies
+cookie_optin_cookies=Cookies
+
+cookie_optin_field_name=Bezeichnung
+cookie_optin_field_provider=Anbieter
+cookie_optin_field_usage=Verwendungszweck
+cookie_optin_field_expiry=Ablauf
+cookie_optin_field_type=Typ
+
+cookie_optin_cookie_add=Cookie hinzufügen
+cookie_optin_cookie_edit=Cookie bearbeiten
