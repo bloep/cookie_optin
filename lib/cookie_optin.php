@@ -26,7 +26,7 @@ class cookie_optin {
             } elseif(self::getStatus() == self::STATUS_VALUECHECK) {
                 $cookieName = self::getConfig('cookie_name');
                 $cookieValue = self::getConfig('cookie_value');
-                if(!isset($_COOKIE[$cookieName]) && $_COOKIE[$cookieName] != $cookieValue) {
+                if(!isset($_COOKIE[$cookieName]) || (isset($_COOKIE[$cookieName]) && $_COOKIE[$cookieName] != $cookieValue)) {
                     self::removeCookie();
                 }
             }
