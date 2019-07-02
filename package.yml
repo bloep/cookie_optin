@@ -18,3 +18,7 @@ requires:
     redaxo: '^5.0'
     packages:
         yform: '>=2.3'
+
+installer_ignore:
+    - .git
+    
