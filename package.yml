@@ -1,8 +1,7 @@
 package: cookie_optin
 version: '1.0.2'
-author: mynetworx
-supportpage: https://github.com/mynetworx/cookie_optin
-supportemail: entwicklung@mynetworx.de
+author: bloep
+supportpage: https://github.com/bloep/cookie_optin
 
 # Seiten
 page:
@@ -18,4 +17,4 @@ page:
 requires:
     redaxo: '^5.0'
     packages:
-        yform: '^2.3'
+        yform: '>=2.3'
